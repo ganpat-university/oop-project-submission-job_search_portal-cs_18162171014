@@ -1,3 +1,4 @@
+package project;
 
 import java.util.*;
 
@@ -34,38 +35,32 @@ public class Final{
     public void apply(int ab) {
         switch (ab) {
             case 1:
-                System.out.println("You Have Successfully applied " +
-                        "to this job");
+                System.out.println("You Have Successfully applied to this job");
                 noofpositon[ab-1]--;
                 showjobdetails(0);
                 break;
             case 2:
-                System.out.println("You have Successfully applied " +
-                        "to this job");
+                System.out.println("You have Successfully applied to this job");
                 noofpositon[ab-2]--;
                 showjobdetails(1);
                 break;
             case 3:
-                System.out.println("You have Successfully Applied " +
-                        "to this job");
+                System.out.println("You have Successfully Applied to this job");
                 noofpositon[ab-3]--;
                 showjobdetails(2);
                 break;
             case 4:
-                System.out.println("You have successfully applied " +
-                        "to this job");
+                System.out.println("You have successfully applied to this job");
                 noofpositon[ab-4]--;
                 showjobdetails(3);
                 noofpositon[ab-1]--;
             case 5:
-                System.out.println("You have successfully applied " +
-                        "to this job");
+                System.out.println("You have successfully applied to this job");
                 noofpositon[ab-1]--;
                 showjobdetails(4);
                 break;
             default:
-                System.out.println("Not possible because the " +
-                        "no of jobs cant exceed");
+                System.out.println("Not possible because the no of jobs cant exceed");
         }
     }
 
